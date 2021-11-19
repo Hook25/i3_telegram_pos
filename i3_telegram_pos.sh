@@ -5,4 +5,6 @@ h=${wh[1]}
 pw=`expr $w - 400`
 ph=`expr $h - 460 - 39`
 
+i3-msg "[class=TelegramDesktop] floating enable"
+i3-msg "[class=TelegramDesktop] resize set 400 400"
 i3-msg "[class=TelegramDesktop] move position $pw $ph"
